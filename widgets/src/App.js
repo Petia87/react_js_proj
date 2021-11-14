@@ -34,14 +34,13 @@ const options = [
 ];
 
 const App = () => {
-  const[selected,setSelected]=useState(options[0])
+ 
   return (
-    <div>
-      <Dropdown 
-      selected={selected}
-      onSelectedChange={setSelected }
-      options={options} />
-    </div>
+    return (
+      <div>
+        <Translate />
+      </div>
+    );
   );
 };
 export default App;
