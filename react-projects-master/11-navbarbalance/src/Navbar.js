@@ -24,6 +24,9 @@ const Navbar = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <h3>Healthy<span className="nav-logo">Balance</span></h3>
+          <button className='nav-toggle' onClick={toggleLinks}>
+            <FaBars />
+          </button>
         </div>
         <div className='links-container' ref={linksContainerRef}>
           <ul className='links' ref={linksRef}>
@@ -37,14 +40,12 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-        <div className='nav-header'>
+      
         <button className='' onClick={toggleLinks}>
             <FaUserAlt /><span> Login / </span><span>Refister</span>
           </button>
-          <button className='nav-toggle' onClick={toggleLinks}>
-            <FaBars />
-          </button>
-          </div>
+          
+        
             </div>
 
     </nav>
