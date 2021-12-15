@@ -1,5 +1,5 @@
 import React from 'react'
-import Final from "./tutorial/6-useReducer/final"
+import Final from "./tutorial/13-clickEvents/prop"
 function App() {
   return (
     <div className='container'>
